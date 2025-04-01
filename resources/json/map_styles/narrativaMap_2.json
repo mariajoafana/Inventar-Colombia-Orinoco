@@ -8,15 +8,15 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=EMLx4Ctxg2WFzJqRap4I"
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=cv2c5QjvSmXKaYHMklpI"
     },
     "terrain-rgb": {
       "type": "raster-dem",
-      "url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=EMLx4Ctxg2WFzJqRap4I"
+      "url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=cv2c5QjvSmXKaYHMklpI"
     },
     "ocean-rgb": {
       "type": "raster-dem",
-      "url": "https://api.maptiler.com/tiles/ocean-rgb/tiles.json?key=EMLx4Ctxg2WFzJqRap4I"
+      "url": "https://api.maptiler.com/tiles/ocean-rgb/tiles.json?key=cv2c5QjvSmXKaYHMklpI"
     }
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
