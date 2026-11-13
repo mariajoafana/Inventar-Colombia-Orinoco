@@ -1096,3 +1096,22 @@ table,
 		display: block;
 	}
 }
+
+/* SCROLLING - PAGINA INVESTIGACION */
+
+body.investigacion-page {
+    height: auto;
+    min-height: 100vh;
+}
+
+body.investigacion-page #sectionContent {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+}
+
+body.investigacion-page .izq,
+body.investigacion-page .der {
+    overflow: visible;
+    min-height: auto;
+}
