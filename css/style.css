@@ -145,10 +145,12 @@ tr:nth-child(even) {
 
 /* MARGIN & PADDING */
 .izq {
-	padding: 0 60px 0 0;
-	overflow: scroll;
-	scroll-behavior: smooth;
-	border-right: var(--bd_double);
+    padding: 0 60px 0 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+    scroll-behavior: smooth;
+    border-right: var(--bd_double);
 }
 
 .izq_borderless {
@@ -158,10 +160,12 @@ tr:nth-child(even) {
 }
 
 .der {
-	padding: 0 60px;
-	overflow: scroll;
-	scroll-behavior: smooth;
-}
+    padding: 0 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+    scroll-behavior: smooth;
+}#sectionContent
 
 .oneCol {
 	padding: 0 60px ;
@@ -629,6 +633,7 @@ button:hover {
 /* CONTENT */
 #sectionContent, .sectionContent {
 	height: 100vh;
+	min-height: 0;
 	padding: 0 0 0 5%;
 	font-size: 1.3em;
 	background: var(--white1);
